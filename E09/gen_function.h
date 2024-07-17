@@ -1,3 +1,4 @@
+
 #ifndef __gen_function_h__
 #define __gen_function_h__
 
