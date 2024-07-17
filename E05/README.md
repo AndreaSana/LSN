@@ -1,4 +1,4 @@
-In this exercise, there are four files: 
+In this exercise, there are four files `main`: 
 - `main.cpp` measures the mean radius.
 - `main2.cpp` runs the simulation with a different number of steps in each block.
 - `main3.cpp` runs the simulation with different starting points.

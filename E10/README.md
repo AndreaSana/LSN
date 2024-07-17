@@ -1,0 +1,4 @@
+- The `E_09_parallel` folder contains the code for the simulation of Exercise 09 with parallelized code.
+- The `Parallel` folder contains the code for the Parallel Tempering algorithm.
+- The `No_parallel` folder contains non-parallel code with the same number of individuals as the temperatures used in the Parallel Tempering algorithm.
+- The `Parallel_2` folder contains the code for the Parallel Tempering algorithm with a larger number of temperatures.
