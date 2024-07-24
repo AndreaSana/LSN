@@ -62,7 +62,7 @@ int main()
 			{
 				// Metropolis algorithm
 				x_unif = metropolis(rn, x_unif, i, 0, step, accumulater_acc_unif);
-				x_gaus = metropolis(rn, x_unif, i, 1, sigma, accumulater_acc_gaus);
+				x_gaus = metropolis(rn, x_gaus, i, 1, sigma, accumulater_acc_gaus);
 
 				// Ignore non equilibrated steps
 				if (j < eq_block) 	
