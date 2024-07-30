@@ -12,7 +12,7 @@ double errore(double mean, double mean_2, int n)
 // Direct sampling of final asset price 
 double S_direct(double& S_0, double& mu, double& sigma, double& t, Random& rn) 
 {
-	return S_0 * exp((mu - 0.5 * pow(sigma, 2)) * t + sigma * rn.Gauss(0, t));
+	return S_0 * exp((mu - 0.5 * pow(sigma, 2)) * t + sigma * rn.Gauss(0, 1) * sqrt(t));
 }
 
 // Discretized sampling of final asset price 
